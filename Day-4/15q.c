@@ -13,7 +13,7 @@ int main()
   while(temp>0)
   {
     count=count+1;
-    temp/10;
+    temp=temp/10;
   } 
   // check armstrong or not//
    temp=num;
