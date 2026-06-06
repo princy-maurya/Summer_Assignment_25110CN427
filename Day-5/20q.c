@@ -12,7 +12,7 @@ int main()
         num /= 2;
     }
  
-    for (i = 3; i * i <= num; i += 2) {
+    for (i = 3; i * i <= num; i= 2) {
         while (num % i == 0) {
             max = i;
             num /= i;
